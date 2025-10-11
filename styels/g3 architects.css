@@ -151,7 +151,25 @@ main>section{
 .sponsor-companys img{
 filter: grayscale(100%);
 }
-
+#features-section-title{
+  border-left:5px solid #FF900E;
+  padding-left: 20px;
+}
+.feature-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  gap: 20;
+  margin-bottom: 20px;
+}
+.feature-card.feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.feature{
+  gap: 100px;
+}
 
 
 
@@ -185,6 +203,7 @@ filter: grayscale(100%);
     justify-items: center;
   }
 }
+
 
 
 @media  screen  and(min-width:576px) and (max-width:992px) {
